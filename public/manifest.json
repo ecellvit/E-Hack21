@@ -1,0 +1,15 @@
+{
+  "short_name": "E-Summit-21",
+  "name": "E-Summit'21 by E-Cell VIT",
+  "icons": [
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "32x32 64x64 128x128"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

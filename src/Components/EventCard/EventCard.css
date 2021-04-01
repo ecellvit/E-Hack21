@@ -1,0 +1,212 @@
+.list-item-wrapper {
+  margin-top: 10px;
+  position: relative;
+}
+.list-item {
+  display: table-row;
+}
+.list-title {
+  font-weight: 700;
+  font-size: 30px;
+}
+.list-text {
+  min-height: 100px;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  border-radius: 15px;
+  margin: 30px 20px 0px 20px;
+}
+.list-text-inner {
+  border-radius: 15px;
+  padding: 40px 40px 80px 40px;
+  background: linear-gradient(0deg, #012a4c 30%, rgba(2, 32, 56, 0.404) 100%);
+}
+
+.grid {
+  display: flex;
+}
+
+.E-Talk {
+  background-image: url("../../Assets/etalk.jpg");
+}
+.E-Talk .img {
+  background-image: url("../../Assets/etalk\ icon.png");
+}
+
+.VisionX {
+  background-image: url("../../Assets/visionx.jpg");
+}
+.VisionX .img {
+  background-image: url("../../Assets/visionx\ icon.png");
+}
+
+.Bootstrap {
+  background-image: url("../../Assets/bw.jpg");
+}
+.Bootstrap .img {
+  background-image: url("../../Assets/bw\ icon.png");
+}
+
+.E-Hack {
+  background-image: url("../../Assets/ehack.jpg");
+}
+.E-Hack .img {
+  background-image: url("../../Assets/ehack\ icon.png");
+}
+
+.Med-Tech {
+  background-image: url("../../Assets/MEDtech.jpg");
+}
+.Med-Tech .img {
+  background-image: url("../../Assets/medtech\ icon.png");
+}
+
+.Innoventure {
+  background-image: url("../../Assets/innov.jpg");
+}
+.Innoventure .img {
+  background-image: url("../../Assets/innov\ icon.png");
+}
+
+.Start-Up {
+  background-image: url("../../Assets/internexpo.jpg");
+}
+.Start-Up .img {
+  background-image: url("../../Assets/internexpo\ icon.png");
+}
+
+.Paradigm {
+  background-image: url("../../Assets/para.jpg");
+}
+.Paradigm .img {
+  background-image: url("../../Assets/para_icon.png");
+}
+
+.list-text h1 {
+  font-size: 40px;
+  width: 100%;
+  text-align: left;
+  padding-right: 80px;
+  margin-bottom: 50px;
+}
+
+.img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  margin-top: -20px;
+  right: 60px;
+}
+
+.readmore,
+.readless {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .list-wrapper {
+    padding: 0px;
+  }
+  .list-title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: -15px;
+  }
+  .list-text {
+    position: relative;
+    font-size: 3vw;
+    text-align: left;
+    background-size: cover;
+    background-attachment: initial;
+    margin: 8vw 5vw auto -64px;
+  }
+  .list-text h1 {
+    font-size: 7.7vw;
+    padding-right: 70px;
+    margin-bottom: 35px;
+  }
+  .img {
+    height: 60px;
+    width: 60px;
+    margin-top: -10px;
+    right: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .list-text {
+    font-size: 4vw;
+  }
+  /* .extra {
+    display: none;
+  } */
+  .readmore,
+  .readless {
+    font-size: 3.8vw;
+    font-weight: 600;
+  }
+  .readmore {
+    display: inline;
+  }
+  .expanded .extra,
+  .expanded .readless {
+    display: inline;
+  }
+  .expanded .readmore {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .list-text {
+    font-size: 1rem;
+  }
+}
+
+.btn-events {
+  position: absolute;
+  background: #edb17b;
+  border: 1px solid #edb17b;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 26px;
+  padding: 10px 40px;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  outline: none;
+  bottom: 20px;
+  right: 4vw;
+}
+
+.btn-events:hover {
+  background: #edb17bef;
+}
+
+.btn-events:focus,
+.btn-events:active {
+  outline: none;
+}
+
+.btn-events.start,
+.btn-events.end {
+  background-color: transparent;
+  border-width: 2px;
+}
+
+@media (max-width: 500px) {
+  .btn-events {
+    right: 8vw;
+    padding: 10px 20px;
+    font-size: 0.8rem;
+  }
+}
