@@ -25,11 +25,13 @@
   clip-path: url("#myClipS");
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding-bottom: 20vh;
 }
 
 .content {
   text-align: center;
-  margin: 9% auto;
+  margin: auto;
   width: fit-content;
   font-size: 1.5vw;
 }
@@ -136,9 +138,6 @@ nav .righty a:hover:after {
 }
 
 @media screen and (max-width: 991px) {
-  .content {
-    font-size: 1.2vw;
-  }
   nav .righty a {
     color: #fff;
     text-decoration: none;
@@ -149,7 +148,6 @@ nav .righty a:hover:after {
 
 @media screen and (max-width: 768px) {
   .content {
-    margin: 2rem auto;
     font-size: 18px;
   }
 }
@@ -157,7 +155,6 @@ nav .righty a:hover:after {
 @media screen and (max-width: 576px) {
   .content {
     font-size: 3vw;
-    margin: 12vh 20vw auto 20px;
   }
   .content h1 {
     font-size: 3.6em;
