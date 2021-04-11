@@ -4,6 +4,8 @@ import PORTIS from "../../Assets/Portis.svg";
 import TZ from "../../Assets/Tezos.svg";
 import DF from "../../Assets/Devfolio.svg";
 import CE from "../../Assets/Celo.svg";
+import WSS from "../../Assets/wss.svg";
+
 
 
 
@@ -24,6 +26,11 @@ function Sponsors() {
         <div data-aos="flip-up" className="grid-item">
           <a href="https://celo.org/">
             <img src={CE} alt="Sponsor Logo" />
+          </a>
+        </div>
+        <div data-aos="flip-up" className="grid-item">
+          <a href="https://wharfstreetstrategies.com/index.html">
+            <img src={WSS} alt="Sponsor Logo" />
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
