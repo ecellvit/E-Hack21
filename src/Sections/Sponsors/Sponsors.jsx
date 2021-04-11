@@ -5,6 +5,9 @@ import TZ from "../../Assets/Tezos.svg";
 import DF from "../../Assets/Devfolio.svg";
 import CE from "../../Assets/Celo.svg";
 import WSS from "../../Assets/wss.svg";
+import XDC from "../../Assets/xdc.svg";
+import RM from "../../Assets/rm.svg";
+
 
 
 
@@ -29,11 +32,6 @@ function Sponsors() {
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-          <a href="https://wharfstreetstrategies.com/index.html">
-            <img src={WSS} alt="Sponsor Logo" />
-          </a>
-        </div>
-        <div data-aos="flip-up" className="grid-item">
           <a href="https://devfolio.co/">
             <img src={DF} alt="Sponsor Logo" />
           </a>
@@ -53,6 +51,21 @@ function Sponsors() {
             <img src={PO} alt="Sponsor Logo" />
           </a>
         </div>
+        <div data-aos="flip-up" className="grid-item">
+          <a href="https://wharfstreetstrategies.com/index.html">
+            <img src={WSS} alt="Sponsor Logo" />
+          </a>
+        </div>
+        <div data-aos="flip-up" className="grid-item">
+          <a href="http://rosenfeldmedia.com/">
+            <img src={RM} alt="Sponsor Logo" />
+          </a>
+        </div>
+        {/* <div data-aos="flip-up" className="grid-item">
+          <a href="https://xinfin.org/">
+            <img src={XDC} alt="Sponsor Logo" />
+          </a>
+        </div> */}
         {/*<div data-aos="flip-up" className="grid-item">
           <a href="https://zebpay.com/in/">
             <img src={ZP} alt="Sponsor Logo" />
