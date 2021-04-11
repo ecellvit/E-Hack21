@@ -1,16 +1,11 @@
 import React, { useEffect } from "react";
-import PO from "../../Assets/polygon1.png";
-import PORTIS from "../../Assets/portis.png";
-import TZ from "../../Assets/tezos.png";
-import DF from "../../Assets/devfolio.png";
-import CE from "../../Assets/celo.png";
-import SC from "../../Assets/snapchat.png";
-import WO from "../../Assets/wooplr.png";
-import IS from "../../Assets/internshala.png";
-// import ZP from "../../Assets/zebpay.png";
-// import GM from "../../Assets/geeksmate.png";
-// import YS from "../../Assets/yourstory.png";
-// import KK from "../../Assets/kaspersky.png";
+import PO from "../../Assets/Polygon.svg";
+import PORTIS from "../../Assets/Portis.svg";
+import TZ from "../../Assets/Tezos.svg";
+import DF from "../../Assets/Devfolio.svg";
+import CE from "../../Assets/Celo.svg";
+
+
 
 import "./Sponsors.css";
 import Aos from "aos";
@@ -47,23 +42,8 @@ function Sponsors() {
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-          <a href="https://www.polygon.com/">
+          <a href="https://www.polygon.technology/">
             <img src={PO} alt="Sponsor Logo" />
-          </a>
-        </div>
-         <div data-aos="flip-up" className="grid-item">
-          <a href="https://www.snapchat.com/">
-            <img src={SC} alt="Sponsor Logo" />
-          </a>
-        </div>
-        <div data-aos="flip-up" className="grid-item">
-          <a href="#sponsors">
-            <img src={WO} alt="Sponsor Logo" />
-          </a>
-        </div>
-         <div data-aos="flip-up" className="grid-item">
-          <a href="https://internshala.com/">
-            <img src={IS} alt="Sponsor Logo" />
           </a>
         </div>
         {/*<div data-aos="flip-up" className="grid-item">

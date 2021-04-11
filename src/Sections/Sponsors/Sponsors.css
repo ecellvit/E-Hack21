@@ -37,6 +37,15 @@
   max-width: 75%;
   max-height: 200px;
 }
+.grid-item a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  border-radius: 8px;
+  padding: 10px;
+  background: white;
+}
 
 @media screen and (max-width: 1200px) {
   .past-sponsors .grid-item {

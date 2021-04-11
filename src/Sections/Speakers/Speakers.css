@@ -1,0 +1,72 @@
+#speakers {
+  padding: 30px 0 70px 0;
+  justify-content: center;
+}
+.carousel {
+  margin: 0 5%;
+}
+.speaker-item {
+  height: 450px;
+  display: flex;
+}
+
+.speaker-card {
+  width: 313px;
+  height: 375px;
+  background: #edb17b;
+  margin: auto;
+  box-shadow: 17px 20px 44px -12px rgba(16, 26, 42, 0.23);
+  border-radius: 25px;
+}
+
+.speaker-card img {
+  width: 100%;
+  height: 281px;
+  object-fit: cover;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.speaker-detail {
+  text-align: center;
+}
+
+.speaker-detail div:first-child {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 0.5rem;
+}
+
+.speaker-detail div:nth-child(2) {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.speaker-detail div:last-child {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.react-multiple-carousel__arrow {
+  background: #efefef;
+}
+.react-multiple-carousel__arrow:hover {
+  background: #d6d6d6;
+}
+
+.react-multiple-carousel__arrow::before {
+  color: #012a4c;
+}
+
+.react-multi-carousel-dot button {
+  background-color: #c4c4c4;
+  opacity: 0.45;
+  border: none;
+}
+
+.react-multi-carousel-dot--active button {
+  opacity: 1;
+}

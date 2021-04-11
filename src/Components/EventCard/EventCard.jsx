@@ -14,13 +14,13 @@ function EventCard(props) {
         <div className="list-text-inner">
           <div className="grid">
             <h1>{props.head}</h1>
-            <div className="img"></div>
+            {/* <div className="img"></div> */}
           </div>
           <p>
             <span>{props.content.substr(0, 100)}</span>
             <span className="extra">{props.content.substr(100)}</span>
           </p>
-          {props.link === "" ? (
+          {/* {props.link === "" ? (
             <button className={`btn-events ${props.reg}`}>
               {props.reg === "start" ? "Coming soon" : "Seats Filled"}
             </button>
@@ -28,7 +28,7 @@ function EventCard(props) {
             <a href={props.link} target="_blank" rel="noreferrer">
               <button className={`btn-events`}>Register</button>
             </a>
-          )}
+          )} */}
         </div>
       </div>
     </div>

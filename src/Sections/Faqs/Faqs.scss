@@ -1,0 +1,54 @@
+
+
+.accordion {
+  width: 80vw;
+  margin: 30px auto 0;
+  background: #EDB17B;
+  
+  &__item {
+    margin-bottom: 5px;
+  }
+      
+  &__title {
+    background: #1A5678;
+    padding: 40px;
+    border-radius: 12px;
+    margin: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+        
+    &::after {
+      font-family: 'Font Awesome 5 Free';
+      content:'\f078';
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      width: 1em;
+      height: 1em;
+      transition: transform 0.3s ease-in;
+    }
+    
+    .is-open &::after {
+      transform: rotate(180deg);
+    }
+  }
+    
+  &__body {
+    border-radius: 5px;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+  }
+  
+  &__content {
+    background: #1A5678;
+    border-radius: 4px;
+    padding: 15px;
+    margin-top: 5px;
+  }
+}

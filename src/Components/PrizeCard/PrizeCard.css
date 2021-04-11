@@ -1,0 +1,29 @@
+.card-container {
+  height: 450px;
+  display: flex;
+  width: fit-content;
+}
+.prize-card {
+  width: 313px;
+  height: 370px;
+  background: #edb17b;
+  margin: auto;
+  border-radius: 25px;
+}
+.prize-card img {
+  width: 100%;
+  height: 185px;
+  object-fit: cover;
+  border-radius: 25px 25px 0px 0px;
+}
+.prize-detail{
+ text-align: center;
+ margin-top: 70px;
+}
+.cup{
+ width: fit-content;
+ position: absolute;
+ border-radius: 50%;
+ margin-top: 150px;
+ margin-left: 90px;
+}

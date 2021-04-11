@@ -28,18 +28,17 @@ function AboutUs() {
   return (
     <div className="aboutus" id="about">
       <div data-aos="flip-left" className="separator">
-        <span>About E-Cell VIT</span>
+        <span>About E-Hack</span>
       </div>
+      <br />
       <div className="random">
         <p data-aos="zoom-in" className="aboutus__aboutusinfo">
-          Entrepreneurship Cell is a student body based in VIT Vellore which
-          aims at fostering entrepreneurial spirit amongst young aspirants by
-          providing them with a platform and required resources for actuating
-          their ideas into successful business ventures. E-Cell strives to
-          attain an entrepreneurial environment in the campus and believes in
-          taking strides towards establishing an ever-growing, ever-improving
-          Start-Up environment. Our sole approach is to magnify the reach and
-          set up a diverse pool of investors, evaluators and mentors.
+          The Entrepreneurship Cell, VIT is a student club that aims at
+          fostering entrepreneurial spirit among the stu nts. E-Cell, VIT is in
+          collaboration with Technology Business Incubator (TBI) under
+          government of India. TBI along with E-Cell provides the students with
+          an advanced platform for converting their potential small scale ideas
+          into leading start-ups.
         </p>
       </div>
       <div className="d-flex">
@@ -48,37 +47,22 @@ function AboutUs() {
         <Counter count={210} spec="mentors" />
         <Counter count={100} spec="incubatees" />
       </div>
-      <div data-aos="flip-left" className="separator">
-        <span>About E-Summit</span>
-      </div>
+      <br />
+      <br />
       <div className="random">
         <p data-aos="zoom-in" className="aboutus__aboutusinfo">
-          E-Summit is the conclave that opens the doors to the world of
-          entrepreneurship. Masquerading as a single event, it is a fusion of
-          visionary activities and insightful sessions that open the realm of
-          networking and broaden the horizon of business in students' minds.
-          With its exclusive class of exhilarating events, interesting
-          workshops, exciting expos and spectacular speakers, E-Summit aims at
-          instilling innovation in young minds.
+          E-Summit is the conclave which opens the doors to the world of
+          entrepreneurship. With it's exclusive class of exhilarating events,
+          wonderful workshops, exciting expos and the perfect panel of
+          spectacular speakers, E-Summit aims at instilling a sense of
+          innovation in the youth.
         </p>
         <br />
         <p data-aos="zoom-in" className="aboutus__aboutusinfo">
-          E-Summit 2021 is the 4th edition of the biggest business fest in South
-          India. It is expected to have a massive turnout of participants, this
+          E-Summit is the 3rd edition of the biggest business fest in South
+          India. It is expected to have a massive turnout of participants thus
           providing a great platform for marketing and outreach.
         </p>
-      </div>
-      <div data-aos="flip-left" className="separator">
-        <span>About E-Hack</span>
-      </div>
-      <div className="random">
-        <p data-aos="zoom-in" className="aboutus__aboutusinfo">
-          E-Hack is an overnight Hackathon that aims to find the leaders of
-          tomorrow. Challenging participants to come up with effective solutions
-          to real-world problems, this event is one comprehensive test of grit,
-          resilience and innovation.
-        </p>
-        <br />
       </div>
     </div>
   );
