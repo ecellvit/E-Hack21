@@ -7,6 +7,7 @@ import CE from "../../Assets/Celo.svg";
 import WSS from "../../Assets/wss.svg";
 import XDC from "../../Assets/xdc.png";
 import RM from "../../Assets/rm.svg";
+import GM from "../../Assets/GMC.png";
 
 
 
@@ -64,6 +65,11 @@ function Sponsors() {
          <div data-aos="flip-up" className="grid-item">
           <a href="https://xinfin.org/">
             <img className="xdclogosm"src={XDC} alt="Sponsor Logo" />
+          </a>
+        </div> 
+        <div data-aos="flip-up" className="grid-item">
+          <a href="https://www.givemycertificate.com/">
+            <img src={GM} alt="Sponsor Logo" />
           </a>
         </div> 
         {/*<div data-aos="flip-up" className="grid-item">
