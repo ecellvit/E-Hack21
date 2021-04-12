@@ -37,6 +37,11 @@
   max-width: 75%;
   max-height: 200px;
 }
+
+.xdclogosm
+{
+  width:30%;
+}
 .grid-item a{
   display: flex;
   justify-content: center;

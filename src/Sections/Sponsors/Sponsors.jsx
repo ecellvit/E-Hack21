@@ -5,7 +5,7 @@ import TZ from "../../Assets/Tezos.svg";
 import DF from "../../Assets/Devfolio.svg";
 import CE from "../../Assets/Celo.svg";
 import WSS from "../../Assets/wss.svg";
-import XDC from "../../Assets/xdc.svg";
+import XDC from "../../Assets/xdc.png";
 import RM from "../../Assets/rm.svg";
 
 
@@ -61,11 +61,11 @@ function Sponsors() {
             <img src={RM} alt="Sponsor Logo" />
           </a>
         </div>
-        {/* <div data-aos="flip-up" className="grid-item">
+         <div data-aos="flip-up" className="grid-item">
           <a href="https://xinfin.org/">
-            <img src={XDC} alt="Sponsor Logo" />
+            <img className="xdclogosm"src={XDC} alt="Sponsor Logo" />
           </a>
-        </div> */}
+        </div> 
         {/*<div data-aos="flip-up" className="grid-item">
           <a href="https://zebpay.com/in/">
             <img src={ZP} alt="Sponsor Logo" />
