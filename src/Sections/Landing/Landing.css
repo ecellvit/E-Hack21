@@ -58,7 +58,7 @@
 .content h1 {
   font-style: normal;
   font-weight: 800;
-  font-size: 4.6em;
+  font-size: 3.6em;
   line-height: 1.2em;
   color: #edb17b;
   margin-bottom: 0.3em;
@@ -176,6 +176,10 @@ nav .righty a:hover:after {
   .btn {
     padding: 0.3rem 1.2rem;
   }
+  .btn2 {
+    padding: 0.3rem 1.2rem;
+    /* margin-top:100px; */
+  }
   nav .righty {
     display: none;
   }
@@ -225,5 +229,28 @@ a#df {
   background: transparent;
   border-color: #edb17b;
   color: #edb17b;
+  transition: all 0.5s ease;
+}
+
+.btn2 {
+  padding: 0.8rem 3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn2-primary {
+  background: #738ADB;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.btn2-primary:hover {
+  background: transparent;
+  border-color: #738ADB;
+  color: #738ADB;
   transition: all 0.5s ease;
 }

@@ -44,6 +44,8 @@ function Landing() {
             </p>
             <div>
                 <Devfolio />
+                <br></br><br></br>
+                <a href="https://discord.gg/My8w98Wm5D" className="btn2 btn2-primary">Join Discord Server</a>
             </div>
           </div>
         <Sidebar open={open} setOpen={setOpen} id={menuId} />
