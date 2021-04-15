@@ -32,77 +32,97 @@ function Sponsors() {
       </div>
       <div className="grid-container">
         <div data-aos="flip-up" className="grid-item">
-          <a href="https://celo.org/">
+          <a href="https://celo.org/" target="_blank" rel="noreferrer">
             <img src={CE} alt="Sponsor Logo" />
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-          <a href="https://devfolio.co/">
+          <a href="https://devfolio.co/" target="_blank" rel="noreferrer">
             <img src={DF} alt="Sponsor Logo" />
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-          <a href="https://www.portis.io/">
+          <a href="https://www.portis.io/" target="_blank" rel="noreferrer">
             <img src={PORTIS} alt="Sponsor Logo" />
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-          <a href="https://tezos.com/">
+          <a href="https://tezos.com/" target="_blank" rel="noreferrer">
             <img src={TZ} alt="Sponsor Logo" />
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-          <a href="https://www.polygon.technology/">
+          <a
+            href="https://www.polygon.technology/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={PO} alt="Sponsor Logo" />
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-          <a href="https://wharfstreetstrategies.com/index.html">
+          <a
+            href="https://wharfstreetstrategies.com/index.html"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={WSS} alt="Sponsor Logo" />
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-          <a href="http://rosenfeldmedia.com/">
+          <a href="http://rosenfeldmedia.com/" target="_blank" rel="noreferrer">
             <img src={RM} alt="Sponsor Logo" />
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-          <a href="https://xinfin.org/">
+          <a href="https://xinfin.org/" target="_blank" rel="noreferrer">
             <img className="xdclogosm" src={XDC} alt="Sponsor Logo" />
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-          <a href="https://www.givemycertificate.com/">
+          <a
+            href="https://www.givemycertificate.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={GM} alt="Sponsor Logo" />
           </a>
         </div>{" "}
         <div data-aos="flip-up" className="grid-item">
-          <a href="https://gen.xyz/">
+          <a href="https://gen.xyz/" target="_blank" rel="noreferrer">
             <img src={XYZ} alt="Sponsor Logo" />
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-          <a href="https://www.scriptindia.org/">
+          <a
+            href="https://www.scriptindia.org/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={SF} alt="Sponsor Logo" />
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-          <a href="https://1password.com/">
+          <a href="https://1password.com/" target="_blank" rel="noreferrer">
             <img src={OP} alt="Sponsor Logo" />
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-          <a href="https://codingblocks.com/">
+          <a href="https://codingblocks.com/" target="_blank" rel="noreferrer">
             <img src={CB} alt="Sponsor Logo" />
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-          <a href="https://www.hackathonsinternational.com/">
+          <a
+            href="https://www.hackathonsinternational.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={HI} alt="Sponsor Logo" />
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-          <a href="https://replit.com/">
+          <a href="https://replit.com/" target="_blank" rel="noreferrer">
             <img src={RE} alt="Sponsor Logo" />
           </a>
         </div>
