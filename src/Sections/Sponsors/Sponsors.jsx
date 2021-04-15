@@ -8,9 +8,12 @@ import WSS from "../../Assets/wss.svg";
 import XDC from "../../Assets/xdc.png";
 import RM from "../../Assets/rm.svg";
 import GM from "../../Assets/GMC.png";
-
-
-
+import XYZ from "../../Assets/xyz.png";
+import SF from "../../Assets/scriptfoundation.png";
+import OP from "../../Assets/1password.png";
+import CB from "../../Assets/cblogo.png";
+import HI from "../../Assets/HackathonsInternationalLogo.png";
+import RE from "../../Assets/replit.png";
 
 
 import "./Sponsors.css";
@@ -24,9 +27,10 @@ function Sponsors() {
 
   return (
     <div className="past-sponsors" id="sponsors">
-      <div className="sponsor-head"><span>Sponsors</span></div>
+      <div className="sponsor-head">
+        <span>Sponsors</span>
+      </div>
       <div className="grid-container">
-
         <div data-aos="flip-up" className="grid-item">
           <a href="https://celo.org/">
             <img src={CE} alt="Sponsor Logo" />
@@ -62,16 +66,46 @@ function Sponsors() {
             <img src={RM} alt="Sponsor Logo" />
           </a>
         </div>
-         <div data-aos="flip-up" className="grid-item">
+        <div data-aos="flip-up" className="grid-item">
           <a href="https://xinfin.org/">
-            <img className="xdclogosm"src={XDC} alt="Sponsor Logo" />
+            <img className="xdclogosm" src={XDC} alt="Sponsor Logo" />
           </a>
-        </div> 
+        </div>
         <div data-aos="flip-up" className="grid-item">
           <a href="https://www.givemycertificate.com/">
             <img src={GM} alt="Sponsor Logo" />
           </a>
-        </div> 
+        </div>{" "}
+        <div data-aos="flip-up" className="grid-item">
+          <a href="https://gen.xyz/">
+            <img src={XYZ} alt="Sponsor Logo" />
+          </a>
+        </div>
+        <div data-aos="flip-up" className="grid-item">
+          <a href="https://www.scriptindia.org/">
+            <img src={SF} alt="Sponsor Logo" />
+          </a>
+        </div>
+        <div data-aos="flip-up" className="grid-item">
+          <a href="https://1password.com/">
+            <img src={OP} alt="Sponsor Logo" />
+          </a>
+        </div>
+        <div data-aos="flip-up" className="grid-item">
+          <a href="https://codingblocks.com/">
+            <img src={CB} alt="Sponsor Logo" />
+          </a>
+        </div>
+        <div data-aos="flip-up" className="grid-item">
+          <a href="https://www.hackathonsinternational.com/">
+            <img src={HI} alt="Sponsor Logo" />
+          </a>
+        </div>
+        <div data-aos="flip-up" className="grid-item">
+          <a href="https://replit.com/">
+            <img src={RE} alt="Sponsor Logo" />
+          </a>
+        </div>
         {/*<div data-aos="flip-up" className="grid-item">
           <a href="https://zebpay.com/in/">
             <img src={ZP} alt="Sponsor Logo" />
