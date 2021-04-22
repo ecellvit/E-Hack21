@@ -33,21 +33,23 @@ function AboutUs() {
       <br />
       <div className="random">
         <p data-aos="zoom-in" className="aboutus__aboutusinfo">
-          The Entrepreneurship Cell, VIT is a student club that aims at
-          fostering entrepreneurial spirit among the stu nts. E-Cell, VIT is in
-          collaboration with Technology Business Incubator (TBI) under
-          government of India. TBI along with E-Cell provides the students with
-          an advanced platform for converting their potential small scale ideas
-          into leading start-ups.
+          A test of grit, resilience and innovation, E-Hack is an exhaustive
+          15-hour hackathon that invites you to come up with effective solutions
+          to real-world problems. Put the pedal to the metal and get a chance of
+          winning a lucrative prize money of ₹1,50,000 along with numerous
+          goodies and schwags. <br />
+          <strong>
+            Get ready to bring your prime game on the 30th of April.
+          </strong>
         </p>
       </div>
-      <div className="d-flex">
+      {/* <div className="d-flex">
         <Counter count={5000} spec="students" />
         <Counter count={289} spec="start ups" />
         <Counter count={210} spec="mentors" />
         <Counter count={100} spec="incubatees" />
       </div>
-      <br />
+      <br /> */}
       <br />
       <div className="random">
         <p data-aos="zoom-in" className="aboutus__aboutusinfo">

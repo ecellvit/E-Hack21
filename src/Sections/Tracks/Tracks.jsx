@@ -3,6 +3,11 @@ import "./Tracks.css";
 import EventCard from "../../Components/EventCard/EventCard";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import ai from "../../Assets/ai.png";
+import blockchain from "../../Assets/blockchain.png";
+import design from "../../Assets/design.png";
+import fintech from "../../Assets/fintech.png";
+import open from "../../Assets/open.png";
 
 function Event() {
   useEffect(() => {
@@ -12,47 +17,15 @@ function Event() {
   return (
     <>
       <div id="events">
-        <div data-aos="flip-left" className="separator"></div>
-        <div className="list-wrapper">
-          <span data-aos="flip-left" className="event-head">
-            Tracks
-          </span>
-          <div data-aos="flip-left">
-            {/* reg prop is either 'start' (Will start later) or 'end' (Ended) or '' (Ongoing) */}
-            <EventCard
-              head="Paradigm"
-              // link="https://dare2compete.com/o/paradigm-vellore-institute-of-technology-vit-vellore-156100"
-              // reg="start"
-              content=""
-            />
-          </div>
-          <div data-aos="flip-left">
-            {/* reg prop is either 'start' (Will start later) or 'end' (Ended) or '' (Ongoing) */}
-            <EventCard
-              head="Paradigm"
-              // link="https://dare2compete.com/o/paradigm-vellore-institute-of-technology-vit-vellore-156100"
-              // reg="start"
-              content=""
-            />
-          </div>
-          <div data-aos="flip-left">
-            {/* reg prop is either 'start' (Will start later) or 'end' (Ended) or '' (Ongoing) */}
-            <EventCard
-              head="Paradigm"
-              // link="https://dare2compete.com/o/paradigm-vellore-institute-of-technology-vit-vellore-156100"
-              // reg="start"
-              content="Change the way you approach problems by putting yourself in the shoes of eminent personalities. Envision brilliant ideas worthy of bringing an impactful change in the world."
-            />
-          </div>
-          <div data-aos="flip-left">
-            {/* reg prop is either 'start' (Will start later) or 'end' (Ended) or '' (Ongoing) */}
-            <EventCard
-              head="Paradigm"
-              // link="https://dare2compete.com/o/paradigm-vellore-institute-of-technology-vit-vellore-156100"
-              // reg="start"
-              content="Change the way you approach problems by putting yourself in the shoes of eminent personalities. Envision brilliant ideas worthy of bringing an impactful change in the world."
-            />
-          </div>
+        <div data-aos="flip-left" className="separator">
+          <span>Tracks</span>
+        </div>
+        <div className="d-flex">
+          <EventCard head="Blockchain" prize="1,10,000" src={blockchain} />
+          <EventCard head="AI/ML" prize="10,000" src={ai} />
+          <EventCard head="Design" prize="10,000" src={design} />
+          <EventCard head="Fintech" prize="10,000" src={fintech} />
+          <EventCard head="Open Innovation" prize="10,000" src={open} />
         </div>
       </div>
     </>

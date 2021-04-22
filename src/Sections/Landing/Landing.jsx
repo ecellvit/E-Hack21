@@ -21,33 +21,39 @@ function Landing() {
   return (
     <div>
       <div className="container">
-          <img id="blue-bg" src={BG} />
-          <div className="content">
-            <nav className="flex justify-between nav">
-              <div className="lefty flex items-center">
-                <div className="logo">
-                  <img src={LOGO} alt="E-Summit" />
-                </div>
-              </div>
-              <div className="righty">
-                <Menu />
-              </div>
-              <div className="rightcode">
-                <Burger open={open} setOpen={setOpen} aria-controls={menuId} />
-              </div>
-            </nav>
-            <img src={LOGO} alt="E-Summit" />
-            <p className="top">E-Cell, VIT Presents</p>
-            <h1>E-Hack'21</h1>
-            <p className="bottom">
-              The 4th edition of the biggest business fest in South India
-            </p>
-            <div>
-                <Devfolio />
-                <br></br><br></br>
-                <a href="https://discord.gg/My8w98Wm5D" className="btn2 btn2-primary">Join Discord Server</a>
+        <img id="blue-bg" src={BG} />
+        <nav className="flex justify-between nav">
+          <div className="lefty flex items-center">
+            <div className="logo">
+              <img src={LOGO} alt="E-Summit" />
             </div>
           </div>
+          <div className="righty">
+            <Menu />
+          </div>
+          <div className="rightcode">
+            <Burger open={open} setOpen={setOpen} aria-controls={menuId} />
+          </div>
+        </nav>
+        <div className="content">
+          <img src={LOGO} alt="E-Summit" />
+          <p className="top">E-Cell, VIT Presents</p>
+          <h1>E-Hack'21</h1>
+          <p className="bottom">
+            The 4th edition of the biggest business fest in South India
+          </p>
+          <div>
+            <Devfolio />
+            <br></br>
+            <br></br>
+            <a
+              href="https://discord.gg/My8w98Wm5D"
+              className="btn2 btn2-primary"
+            >
+              Join Discord Server
+            </a>
+          </div>
+        </div>
         <Sidebar open={open} setOpen={setOpen} id={menuId} />
       </div>
     </div>
