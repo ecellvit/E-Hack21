@@ -59,12 +59,6 @@ function AboutUs() {
           spectacular speakers, E-Summit aims at instilling a sense of
           innovation in the youth.
         </p>
-        <br />
-        <p data-aos="zoom-in" className="aboutus__aboutusinfo">
-          E-Summit is the 3rd edition of the biggest business fest in South
-          India. It is expected to have a massive turnout of participants thus
-          providing a great platform for marketing and outreach.
-        </p>
       </div>
     </div>
   );
